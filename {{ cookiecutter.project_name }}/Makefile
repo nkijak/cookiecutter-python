@@ -13,6 +13,6 @@ test:
 	pytest -vv
 
 build:
-	docker build -t $(IMAGE):$(TAG)
+	docker build -t $(IMAGE):$(TAG) .
 
 
